@@ -62,44 +62,52 @@ Taksonomi adalah skema **pengelompokan informasi** berdasarkan kategori-kategori
 
 ```
 Dakwah KPI
-â”œâ”€â”€ Beranda
-â”œâ”€â”€ Aqidah
-â”‚   â”œâ”€â”€ Rukun Iman & Maknanya
-â”‚   â”œâ”€â”€ Tauhid Uluhiyah & Rububiyah
-â”‚   â”œâ”€â”€ Mengenal Asmaul Husna
-â”‚   â”œâ”€â”€ Iman kepada Hari Akhir
-â”‚   â””â”€â”€ Menjawab Syubhat Aqidah
-â”œâ”€â”€ Fiqih & Ibadah
-â”‚   â”œâ”€â”€ Panduan Shalat Lengkap
-â”‚   â”œâ”€â”€ Tata Cara Puasa & Zakat
-â”‚   â”œâ”€â”€ Fiqih Muamalah Modern
-â”‚   â”œâ”€â”€ Fiqih Pernikahan & Keluarga
-â”‚   â””â”€â”€ Tanya Jawab Hukum Islam
-â”œâ”€â”€ Akhlak
-â”‚   â”œâ”€â”€ Akhlak di Era Digital
-â”‚   â”œâ”€â”€ Tips Menjaga Lisan di Era Digital  â† (fokus studi kasus)
-â”‚   â”œâ”€â”€ Adab Pergaulan Islami
-â”‚   â”œâ”€â”€ Sabar & Syukur dalam Kehidupan
-â”‚   â””â”€â”€ Mengelola Emosi secara Islami
-â”œâ”€â”€ Sejarah Islam
-â”‚   â”œâ”€â”€ Sirah Nabawiyah
-â”‚   â”œâ”€â”€ Kisah Para Sahabat
-â”‚   â”œâ”€â”€ Peradaban Islam Klasik
-â”‚   â”œâ”€â”€ Islam di Nusantara
-â”‚   â””â”€â”€ Tokoh Ulama Inspiratif
-â”œâ”€â”€ Al-Qur'an & Hadis
-â”‚   â”œâ”€â”€ Tadabbur Ayat Pilihan
-â”‚   â”œâ”€â”€ Tafsir Tematik Modern
-â”‚   â”œâ”€â”€ Hadis Pilihan Kehidupan
-â”‚   â”œâ”€â”€ Belajar Tajwid Dasar
-â”‚   â””â”€â”€ Program Hafalan Qur'an
-â”œâ”€â”€ Dakwah Digital
-â”‚   â”œâ”€â”€ Konten Dakwah Media Sosial
-â”‚   â”œâ”€â”€ Podcast & Video Ceramah
-â”‚   â”œâ”€â”€ Literasi Digital Islami
-â”‚   â”œâ”€â”€ Komunitas & Forum Diskusi
-â”‚   â””â”€â”€ Kalender Kajian Online
-â””â”€â”€ Tanya Ustaz
+|
++-- Beranda
+|
++-- Aqidah
+|   +-- Rukun Iman & Maknanya
+|   +-- Tauhid Uluhiyah & Rububiyah
+|   +-- Mengenal Asmaul Husna
+|   +-- Iman kepada Hari Akhir
+|   \-- Menjawab Syubhat Aqidah
+|
++-- Fiqih & Ibadah
+|   +-- Panduan Shalat Lengkap
+|   +-- Tata Cara Puasa & Zakat
+|   +-- Fiqih Muamalah Modern
+|   +-- Fiqih Pernikahan & Keluarga
+|   \-- Tanya Jawab Hukum Islam
+|
++-- Akhlak
+|   +-- Akhlak di Era Digital
+|   +-- Tips Menjaga Lisan di Era Digital  **(fokus studi kasus)**
+|   +-- Adab Pergaulan Islami
+|   +-- Sabar & Syukur dalam Kehidupan
+|   \-- Mengelola Emosi secara Islami
+|
++-- Sejarah Islam
+|   +-- Sirah Nabawiyah
+|   +-- Kisah Para Sahabat
+|   +-- Peradaban Islam Klasik
+|   +-- Islam di Nusantara
+|   \-- Tokoh Ulama Inspiratif
+|
++-- Al-Qur'an & Hadis
+|   +-- Tadabbur Ayat Pilihan
+|   +-- Tafsir Tematik Modern
+|   +-- Hadis Pilihan Kehidupan
+|   +-- Belajar Tajwid Dasar
+|   \-- Program Hafalan Qur'an
+|
++-- Dakwah Digital
+|   +-- Konten Dakwah Media Sosial
+|   +-- Podcast & Video Ceramah
+|   +-- Literasi Digital Islami
+|   +-- Komunitas & Forum Diskusi
+|   \-- Kalender Kajian Online
+|
+\-- Tanya Ustaz
 ```
 
 ### Prinsip yang Digunakan
@@ -146,8 +154,8 @@ Labeling adalah proses **pemberian nama atau istilah** pada setiap elemen dalam 
 
 1. **Jelas dan Sederhana:** Menggunakan kosakata yang umum dan mudah dimengerti oleh seluruh target audiens, dari mahasiswa hingga masyarakat awam.
 2. **Konsisten:** Gaya penulisan seragam di seluruh halaman; tidak berganti-ganti antara "Kajian", "Pengajian", dan "Materi" untuk konten yang sama.
-3. **Berorientasi Pengguna:** Label dipilih dari sudut pandang audiens â€” "Apa yang mereka cari?" bukan "Apa yang ingin kita beri nama?"
-4. **Ringkas:** Maksimal 3â€“4 kata per label menu agar nyaman dibaca di layar kecil (perangkat mobile).
+3. **Berorientasi Pengguna:** Label dipilih dari sudut pandang audiens — "Apa yang mereka cari?" bukan "Apa yang ingin kita beri nama?"
+4. **Ringkas:** Maksimal 3–4 kata per label menu agar nyaman dibaca di layar kecil (perangkat mobile).
 
 ---
 
@@ -267,4 +275,4 @@ Ketiga elemen ini bekerja secara terpadu. Taksonomi yang baik tidak akan berdamp
 **Referensi:**
 - Morville, P., & Rosenfeld, L. (2006). *Information Architecture for the World Wide Web*. O'Reilly Media.
 - Garrett, J. J. (2010). *The Elements of User Experience: User-Centered Design for the Web and Beyond*. New Riders.
-- Modul Perkuliahan Pertemuan 5 â€“ Arsitektur Informasi: Taksonomi, Labeling, dan Navigasi Pesan. Program Studi KPI.
+- Modul Perkuliahan Pertemuan 5 – Arsitektur Informasi: Taksonomi, Labeling, dan Navigasi Pesan. Program Studi KPI.
