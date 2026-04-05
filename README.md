@@ -1,228 +1,270 @@
-      </tr>
-        <tr>
-          <td>Sejarah Islam</td>
-          <td><span class="badge badge-green">Kategori</span></td>
-          <td>Navbar – posisi 5</td>
-          <td>Label deskriptif yang menjelaskan isi secara langsung tanpa jargon.</td>
-          <td>sirah nabawi, sejarah islam</td>
-        </tr>
-        <tr>
-          <td>Al-Quran & Hadis</td>
-          <td><span class="badge badge-green">Kategori</span></td>
-          <td>Navbar – posisi 6</td>
-          <td>Dua sumber utama Islam digabung; pengguna tidak perlu mencari di dua tempat berbeda.</td>
-          <td>tadabbur quran, hadis shahih</td>
-        </tr>
-        <tr>
-          <td>Dakwah Digital</td>
-          <td><span class="badge badge-green">Kategori</span></td>
-          <td>Navbar – posisi 7</td>
-          <td>Membedakan konten dakwah berbasis teknologi dari konten teks biasa.</td>
-          <td>podcast islami, dakwah media sosial</td>
-        </tr>
-        <tr>
-          <td>Tanya Ustaz</td>
-          <td><span class="badge badge-gold">Fitur</span></td>
-          <td>Navbar kanan (CTA)</td>
-          <td>Label aksi yang mengundang interaksi, terasa personal dan mudah diingat.</td>
-          <td>konsultasi islam, tanya jawab islam</td>
-        </tr>
-        <tr>
-          <td>Tips Menjaga Lisan di Era Digital</td>
-          <td><span class="badge badge-gold">Konten</span></td>
-          <td>Di bawah Kategori Akhlak</td>
-          <td>Judul spesifik yang menjawab kebutuhan nyata: bagaimana beretika di media sosial.</td>
-          <td>menjaga lisan, etika media sosial Islam</td>
-        </tr>
-        <tr>
-          <td>Kajian Terbaru</td>
-          <td><span class="badge badge-gold">Fitur</span></td>
-          <td>Footer / Sidebar</td>
-          <td>Menunjukkan konten segar, mendorong pengguna kembali mengunjungi situs.</td>
-          <td>kajian islam terbaru, ceramah online</td>
-        </tr>
-      </tbody>
-    </table>
+# TUGAS KELOMPOK
+**Mata Kuliah:** Perancangan Sistem Informasi
+**Topik:** Arsitektur Informasi: Taksonomi, Labeling, dan Navigasi Pesan
+**Program Studi:** Komunikasi dan Penyiaran Islam (KPI)
 
-    <!-- Prinsip Labeling -->
-    <div class="principles-grid">
-      <div class="principle-card">
-        <div class="p-num">PRINSIP 01</div>
-        <div class="p-title">Jelas & Langsung</div>
-        <div class="p-desc">Label tidak ambigu; pengguna langsung tahu isi halaman sebelum mengklik.</div>
-      </div>
-      <div class="principle-card">
-        <div class="p-num">PRINSIP 02</div>
-        <div class="p-title">Istilah Familiar</div>
-        <div class="p-desc">Menggunakan kosakata Islam yang sudah dikenal, bukan terminologi teknis baru.</div>
-      </div>
-      <div class="principle-card">
-        <div class="p-num">PRINSIP 03</div>
-        <div class="p-title">Konsisten</div>
-        <div class="p-desc">Gaya penulisan seragam di semua halaman: huruf kapital di awal kata tiap label.</div>
-      </div>
-      <div class="principle-card">
-        <div class="p-num">PRINSIP 04</div>
-        <div class="p-title">Ringkas</div>
-        <div class="p-desc">Maksimal 3–4 kata per label menu agar nyaman dibaca di layar kecil (mobile).</div>
-      </div>
-    </div>
+---
 
-  </section>
+## Studi Kasus: Rancang Website Dakwah Mahasiswa KPI
 
-  <!-- ══════════════════════════════════════════ -->
-  <!-- TUGAS 3: RANCANG NAVIGASI / USER FLOW     -->
-  <!-- ══════════════════════════════════════════ -->
-  <section id="navigasi">
-    <div class="section-num">Tugas 3</div>
-    <h2 class="section-title">Rancangan Navigasi & User Flow</h2>
-    <p class="section-desc">Alur pengguna (user flow) untuk menemukan konten "<strong>Tips Menjaga Lisan di Era Digital</strong>" yang berada di bawah kategori <strong>Akhlak</strong>.</p>
+**Instruksi:**
+Anda diminta untuk merancang Arsitektur Informasi untuk sebuah website bernama **"Dakwah KPI"**. Website ini ditujukan untuk mahasiswa dan masyarakat umum yang ingin belajar Islam secara modern.
 
-    <div class="flow-wrapper">
-      <div class="flow-title">USER FLOW — Menemukan Konten "Tips Menjaga Lisan di Era Digital"</div>
+---
 
-      <div class="flow-diagram">
+## Tugas 1: Struktur Taksonomi
 
-        <!-- Step 1 -->
-        <div class="flow-node start">
-          <div class="fn-label">🌐 Pengguna Membuka Website</div>
-          <div class="fn-sub">Mengetik URL / klik link dari media sosial</div>
-        </div>
+### Pengertian
+Taksonomi adalah skema **pengelompokan informasi** berdasarkan kategori-kategori tertentu agar konten dapat ditemukan dengan mudah oleh pengguna. Dalam website **Dakwah KPI**, kami menggunakan taksonomi **hierarkis (bertingkat)** sebagai dasar utama, karena sesuai dengan sistematika keilmuan Islam yang sudah dikenal masyarakat.
 
-        <div class="flow-arrow">
-          <div class="arr-line"></div>
-          <div class="arr-label">Halaman Beranda dimuat</div>
-          <div class="arr-head"></div>
-        </div>
+### Struktur Taksonomi Website Dakwah KPI
 
-        <!-- Step 2 -->
-        <div class="flow-node">
-          <div class="fn-label">🏠 Halaman Beranda (Home)</div>
-          <div class="fn-sub">Melihat menu navigasi utama di bagian atas halaman</div>
-        </div>
+- **Beranda**
+- **Aqidah** (Kategori 1)
+  - Rukun Iman & Maknanya
+  - Tauhid Uluhiyah & Rububiyah
+  - Mengenal Asmaul Husna
+  - Iman kepada Hari Akhir
+  - Menjawab Syubhat Aqidah
+- **Fiqih & Ibadah** (Kategori 2)
+  - Panduan Shalat Lengkap
+  - Tata Cara Puasa & Zakat
+  - Fiqih Muamalah Modern
+  - Fiqih Pernikahan & Keluarga
+  - Tanya Jawab Hukum Islam
+- **Akhlak** (Kategori 3)
+  - Akhlak di Era Digital
+  - Tips Menjaga Lisan di Era Digital
+  - Adab Pergaulan Islami
+  - Sabar & Syukur dalam Kehidupan
+  - Mengelola Emosi secara Islami
+- **Sejarah Islam** (Kategori 4)
+  - Sirah Nabawiyah
+  - Kisah Para Sahabat
+  - Peradaban Islam Klasik
+  - Islam di Nusantara
+  - Tokoh Ulama Inspiratif
+- **Al-Qur'an & Hadis** (Kategori 5)
+  - Tadabbur Ayat Pilihan
+  - Tafsir Tematik Modern
+  - Hadis Pilihan Kehidupan
+  - Belajar Tajwid Dasar
+  - Program Hafalan Qur'an
+- **Dakwah Digital** (Kategori 6)
+  - Konten Dakwah Media Sosial
+  - Podcast & Video Ceramah
+  - Literasi Digital Islami
+  - Komunitas & Forum Diskusi
+  - Kalender Kajian Online
+- **Tanya Ustaz** (Layanan)
 
-        <div class="flow-arrow">
-          <div class="arr-line"></div>
-          <div class="arr-label">Klik menu "Akhlak"</div>
-          <div class="arr-head"></div>
-        </div>
+### Diagram Pohon (Tree Structure)
 
-        <!-- Step 3 -->
-        <div class="flow-node">
-          <div class="fn-label">🌿 Halaman Kategori: Akhlak</div>
-          <div class="fn-sub">Daftar semua artikel & sub-kategori Akhlak ditampilkan</div>
-        </div>
+```
+Dakwah KPI
+â”œâ”€â”€ Beranda
+â”œâ”€â”€ Aqidah
+â”‚   â”œâ”€â”€ Rukun Iman & Maknanya
+â”‚   â”œâ”€â”€ Tauhid Uluhiyah & Rububiyah
+â”‚   â”œâ”€â”€ Mengenal Asmaul Husna
+â”‚   â”œâ”€â”€ Iman kepada Hari Akhir
+â”‚   â””â”€â”€ Menjawab Syubhat Aqidah
+â”œâ”€â”€ Fiqih & Ibadah
+â”‚   â”œâ”€â”€ Panduan Shalat Lengkap
+â”‚   â”œâ”€â”€ Tata Cara Puasa & Zakat
+â”‚   â”œâ”€â”€ Fiqih Muamalah Modern
+â”‚   â”œâ”€â”€ Fiqih Pernikahan & Keluarga
+â”‚   â””â”€â”€ Tanya Jawab Hukum Islam
+â”œâ”€â”€ Akhlak
+â”‚   â”œâ”€â”€ Akhlak di Era Digital
+â”‚   â”œâ”€â”€ Tips Menjaga Lisan di Era Digital  â† (fokus studi kasus)
+â”‚   â”œâ”€â”€ Adab Pergaulan Islami
+â”‚   â”œâ”€â”€ Sabar & Syukur dalam Kehidupan
+â”‚   â””â”€â”€ Mengelola Emosi secara Islami
+â”œâ”€â”€ Sejarah Islam
+â”‚   â”œâ”€â”€ Sirah Nabawiyah
+â”‚   â”œâ”€â”€ Kisah Para Sahabat
+â”‚   â”œâ”€â”€ Peradaban Islam Klasik
+â”‚   â”œâ”€â”€ Islam di Nusantara
+â”‚   â””â”€â”€ Tokoh Ulama Inspiratif
+â”œâ”€â”€ Al-Qur'an & Hadis
+â”‚   â”œâ”€â”€ Tadabbur Ayat Pilihan
+â”‚   â”œâ”€â”€ Tafsir Tematik Modern
+â”‚   â”œâ”€â”€ Hadis Pilihan Kehidupan
+â”‚   â”œâ”€â”€ Belajar Tajwid Dasar
+â”‚   â””â”€â”€ Program Hafalan Qur'an
+â”œâ”€â”€ Dakwah Digital
+â”‚   â”œâ”€â”€ Konten Dakwah Media Sosial
+â”‚   â”œâ”€â”€ Podcast & Video Ceramah
+â”‚   â”œâ”€â”€ Literasi Digital Islami
+â”‚   â”œâ”€â”€ Komunitas & Forum Diskusi
+â”‚   â””â”€â”€ Kalender Kajian Online
+â””â”€â”€ Tanya Ustaz
+```
 
-        <!-- Dua opsi -->
-        <div class="flow-arrow">
-          <div class="arr-line"></div>
-          <div class="arr-label">Pengguna memilih cara</div>
-          <div class="arr-head"></div>
-        </div>
+### Prinsip yang Digunakan
 
-        <!-- Dua jalur -->
-        <div style="width:100%;max-width:480px;display:flex;gap:12px;">
-          <div style="flex:1;display:flex;flex-direction:column;align-items:center;">
-            <div class="flow-node" style="font-size:13px;padding:10px 14px;text-align:center;width:100%">
-              <div class="fn-label" style="font-size:13px;">🔍 Jalur A: Cari Manual</div>
-              <div class="fn-sub">Scroll halaman, cari artikel di daftar</div>
-            </div>
-          </div>
-          <div style="flex:1;display:flex;flex-direction:column;align-items:center;">
-            <div class="flow-node" style="font-size:13px;padding:10px 14px;text-align:center;width:100%">
-              <div class="fn-label" style="font-size:13px;">🔎 Jalur B: Gunakan Search</div>
-              <div class="fn-sub">Ketik kata kunci di kotak pencarian</div>
-            </div>
-          </div>
-        </div>
+| Prinsip | Penerapan dalam Dakwah KPI |
+| :--- | :--- |
+| **Konsisten** | Semua kategori menggunakan nama disiplin ilmu Islam yang sudah dikenal (Aqidah, Fiqih, Akhlak, dst.). |
+| **Mudah Dipahami** | Menghindari istilah teknis yang asing; menggunakan bahasa yang akrab di kalangan mahasiswa dan masyarakat umum. |
+| **Relevan** | Setiap kategori dipilih berdasarkan kebutuhan nyata target pengguna: mahasiswa KPI dan masyarakat yang ingin belajar Islam modern. |
 
-        <div class="flow-arrow">
-          <div class="arr-line"></div>
-          <div class="arr-label">Kedua jalur menuju artikel yang sama</div>
-          <div class="arr-head"></div>
-        </div>
+---
 
-        <!-- Step 4 -->
-        <div class="flow-node highlight">
-          <div class="fn-label">📄 Artikel: "Tips Menjaga Lisan di Era Digital"</div>
-          <div class="fn-sub">Konten lengkap terbuka — Sub-kategori: Akhlak di Era Digital</div>
-        </div>
+## Tugas 2: Labeling
 
-        <div class="flow-arrow">
-          <div class="arr-line"></div>
-          <div class="arr-label">Selesai membaca</div>
-          <div class="arr-head"></div>
-        </div>
+### Pengertian
+Labeling adalah proses **pemberian nama atau istilah** pada setiap elemen dalam sistem informasi. Label yang baik menjadi jembatan bahasa antara sistem dengan pemahaman pengguna, sehingga pengguna langsung mengerti isi sebelum mengklik.
 
-        <!-- Step 5 -->
-        <div class="flow-node end">
-          <div class="fn-label">✅ Rekomendasi Konten Terkait</div>
-          <div class="fn-sub">Sistem menampilkan artikel lain di kategori Akhlak yang relevan</div>
-        </div>
+### Daftar Labeling Menu & Kategori
 
-      </div><!-- /flow-diagram -->
-    </div><!-- /flow-wrapper -->
+| Label | Posisi | Mengapa Label Ini Dipilih |
+| :--- | :--- | :--- |
+| **Beranda** | Menu utama (posisi 1) | Istilah universal yang sudah dikenali semua kalangan sebagai halaman pembuka website. |
+| **Aqidah** | Menu utama (posisi 2) | Istilah resmi keilmuan Islam yang langsung dipahami oleh mahasiswa KPI dan masyarakat Muslim umum. |
+| **Fiqih & Ibadah** | Menu utama (posisi 3) | Menggabungkan dua konsep agar cakupannya jelas: teori hukum Islam sekaligus praktik ibadah sehari-hari. |
+| **Akhlak** | Menu utama (posisi 4) | Satu kata yang padat makna, sangat relevan dengan kehidupan digital generasi muda. |
+| **Sejarah Islam** | Menu utama (posisi 5) | Label deskriptif yang langsung menjelaskan isi tanpa jargon, mudah dipahami siapapun. |
+| **Al-Qur'an & Hadis** | Menu utama (posisi 6) | Menggabungkan dua sumber utama Islam dalam satu menu sehingga pengguna tidak perlu mencari di dua tempat berbeda. |
+| **Dakwah Digital** | Menu utama (posisi 7) | Membedakan konten berbasis teknologi dari konten teks biasa; menarik perhatian generasi muda. |
+| **Tanya Ustaz** | Tombol CTA (kanan atas) | Label aksi yang mengundang interaksi, terasa personal, hangat, dan membangun koneksi dengan pengguna. |
+| **Tips Menjaga Lisan di Era Digital** | Konten di bawah Akhlak | Judul spesifik yang menjawab kebutuhan nyata: bagaimana beretika dalam komunikasi di media sosial. |
+| **Kajian Terbaru** | Sidebar / Footer | Menunjukkan konten yang segar dan aktual, mendorong pengguna untuk kembali mengunjungi website. |
 
-    <!-- Breadcrumb Visual -->
-    <h3 style="font-family:'Lora',serif;font-size:1.05rem;color:var(--green-dark);margin:36px 0 12px;">Breadcrumb Navigasi</h3>
-    <div style="background:white;border:1px solid var(--border);border-radius:10px;padding:18px 24px;display:flex;align-items:center;flex-wrap:wrap;gap:6px;font-size:14px;">
-      <span style="color:var(--green-mid);font-weight:500;cursor:pointer;">Beranda</span>
-      <span style="color:var(--text-light);">›</span>
-      <span style="color:var(--green-mid);font-weight:500;cursor:pointer;">Akhlak</span>
-      <span style="color:var(--text-light);">›</span>
-      <span style="color:var(--green-mid);font-weight:500;cursor:pointer;">Akhlak di Era Digital</span>
-      <span style="color:var(--text-light);">›</span>
-      <span style="color:var(--text-dark);font-weight:600;">Tips Menjaga Lisan di Era Digital</span>
-    </div>
-    <p style="font-size:12.5px;color:var(--text-light);margin-top:8px;">Breadcrumb menampilkan posisi pengguna dalam hierarki website sehingga mudah kembali ke halaman sebelumnya.</p>
+### Perbandingan: Label Buruk vs Label Baik
 
-    <!-- Prinsip navigasi -->
-    <h3 style="font-family:'Lora',serif;font-size:1.05rem;color:var(--green-dark);margin:36px 0 16px;">Prinsip Rancangan Navigasi</h3>
-    <div class="principles-grid">
-      <div class="principle-card">
-        <div class="p-num">NAV 01</div>
-        <div class="p-title">Maksimal 3 Klik</div>
-        <div class="p-desc">Pengguna dapat menemukan konten apapun dalam maksimal 3 kali klik dari beranda.</div>
-      </div>
-      <div class="principle-card">
-        <div class="p-num">NAV 02</div>
-        <div class="p-title">Breadcrumb Selalu Tampil</div>
-        <div class="p-desc">Breadcrumb di setiap halaman membantu pengguna mengetahui posisi mereka.</div>
-      </div>
-      <div class="principle-card">
-        <div class="p-num">NAV 03</div>
-        <div class="p-title">Search Terintegrasi</div>
-        <div class="p-desc">Kotak pencarian selalu ada di navbar sehingga jalur alternatif selalu tersedia.</div>
-      </div>
-      <div class="principle-card">
-        <div class="p-num">NAV 04</div>
-        <div class="p-title">Konten Terkait</div>
-        <div class="p-desc">Setiap artikel menampilkan rekomendasi artikel terkait untuk memperpanjang sesi belajar.</div>
-      </div>
-      <div class="principle-card">
-        <div class="p-num">NAV 05</div>
-        <div class="p-title">Mobile-Friendly</div>
-        <div class="p-desc">Menu navigasi responsif — berubah menjadi hamburger menu di perangkat mobile.</div>
-      </div>
-      <div class="principle-card">
-        <div class="p-num">NAV 06</div>
-        <div class="p-title">Highlight Aktif</div>
-        <div class="p-desc">Menu kategori aktif ditandai secara visual sehingga pengguna tahu sedang di mana.</div>
-      </div>
-    </div>
+| Label Buruk (Ambigu) | Label Baik (Jelas & Komunikatif) | Analisis |
+| :--- | :--- | :--- |
+| **Konten** | **Artikel Islami** | "Konten" terlalu umum. "Artikel Islami" langsung memberikan kejelasan tentang isi dan topiknya. |
+| **Media** | **Video Kajian** | "Media" bisa berarti gambar, video, atau audio. "Video Kajian" jauh lebih spesifik dan informatif. |
+| **Info** | **Jadwal Kajian & Info Terbaru** | "Info" terlalu luas. Memisahnya menjadi label yang spesifik membantu pengguna menemukan apa yang mereka cari. |
+| **Layanan** | **Tanya Ustaz** | "Layanan" terasa korporat dan dingin. "Tanya Ustaz" lebih komunikatif dan membangun rasa kedekatan. |
+| **Materi** | **Kajian Tauhid** | "Materi" tidak memberikan konteks apapun. "Kajian Tauhid" langsung memberikan nilai dakwah yang spesifik. |
 
-  </section>
+### Prinsip Labeling yang Diterapkan
 
-</main>
+1. **Jelas dan Sederhana:** Menggunakan kosakata yang umum dan mudah dimengerti oleh seluruh target audiens, dari mahasiswa hingga masyarakat awam.
+2. **Konsisten:** Gaya penulisan seragam di seluruh halaman; tidak berganti-ganti antara "Kajian", "Pengajian", dan "Materi" untuk konten yang sama.
+3. **Berorientasi Pengguna:** Label dipilih dari sudut pandang audiens â€” "Apa yang mereka cari?" bukan "Apa yang ingin kita beri nama?"
+4. **Ringkas:** Maksimal 3â€“4 kata per label menu agar nyaman dibaca di layar kecil (perangkat mobile).
 
-<!-- FOOTER -->
-<footer>
-  <div style="margin-bottom:8px;">
-    <strong>Website Dakwah KPI</strong> — Arsitektur Informasi
-  </div>
-  <div>Tugas Kelompok · Dakwah Mahasiswa KPI · UIN Sunan Ampel Surabaya</div>
-  <div style="margin-top:10px;font-size:12px;opacity:0.6;">"Sampaikan dariku walau satu ayat." — HR. Bukhari</div>
-</footer>
+---
 
-</body>
-</html>
+## Tugas 3: Rancang Navigasi
+
+### Pengertian
+Navigasi adalah mekanisme yang memungkinkan pengguna untuk **bergerak** dari satu halaman ke halaman lain dalam sistem informasi. Navigasi yang baik memastikan pengguna tidak "tersesat" dan dapat menemukan konten yang mereka inginkan dengan cepat dan mudah.
+
+### Skenario User Flow
+
+**Tujuan:** Pengguna ingin menemukan konten **"Tips Menjaga Lisan di Era Digital"** yang berada di bawah kategori **Akhlak**.
+
+#### Alur Navigasi (User Flow)
+
+```
+[MULAI]
+   |
+   v
+[1] Pengguna membuka website Dakwah KPI
+    (mengetik URL atau mengklik tautan dari media sosial)
+   |
+   v
+[2] Halaman Beranda (Home) ditampilkan
+    --> Pengguna melihat menu navigasi utama di bagian atas halaman
+   |
+   |-----------------------------------------------|
+   | Jalur A: Navigasi Manual                      | Jalur B: Fitur Pencarian
+   v                                               v
+[3A] Klik menu "Akhlak"                       [3B] Klik ikon Search
+     di navigasi utama (navbar)                    --> Ketik: "menjaga lisan"
+   |                                               |
+   v                                               |
+[4A] Halaman Kategori Akhlak terbuka               |
+     --> Pengguna melihat daftar sub-kategori      |
+         dan artikel dalam kategori Akhlak         |
+   |                                               |
+   |-----------------------------------------------|
+   |
+   v
+[5] Pengguna menemukan dan mengklik judul artikel:
+    +-------------------------------------------------------+
+    |  "Tips Menjaga Lisan di Era Digital"                  |
+    |   Kategori: Akhlak > Akhlak di Era Digital            |
+    +-------------------------------------------------------+
+   |
+   v
+[6] Halaman artikel terbuka -- pengguna membaca konten
+   |
+   v
+[7] Di bagian bawah artikel, sistem menampilkan:
+    "Artikel Terkait di Kategori Akhlak"
+    --> Pengguna dapat melanjutkan membaca konten lain
+   |
+   v
+[SELESAI]
+```
+
+#### Penjelasan Setiap Langkah
+
+| Langkah | Aksi Pengguna | Tampilan/Respons Sistem |
+| :--- | :--- | :--- |
+| **1** | Membuka browser, mengetik URL atau klik tautan | Halaman Beranda (Home) dimuat |
+| **2** | Melihat tampilan Beranda | Navbar dengan 7 menu utama tampil di bagian atas |
+| **3A** | Klik menu **"Akhlak"** di navbar | Halaman kategori Akhlak terbuka |
+| **3B** | Klik ikon Search, ketik kata kunci | Hasil pencarian muncul, artikel relevan ditampilkan |
+| **4** | Melihat daftar konten kategori Akhlak | Daftar sub-kategori dan artikel ditampilkan |
+| **5** | Klik judul **"Tips Menjaga Lisan di Era Digital"** | Halaman artikel penuh terbuka |
+| **6** | Membaca artikel | Konten lengkap, gambar, dan poin-poin ditampilkan |
+| **7** | Selesai membaca | Sistem merekomendasikan artikel terkait di kategori Akhlak |
+
+### Breadcrumb Navigasi
+
+Breadcrumb menunjukkan posisi pengguna di dalam struktur website secara real-time:
+
+```
+Beranda  >  Akhlak  >  Akhlak di Era Digital  >  Tips Menjaga Lisan di Era Digital
+```
+
+Breadcrumb memungkinkan pengguna kembali ke halaman sebelumnya hanya dengan satu klik, tanpa harus menekan tombol "Back" di browser.
+
+### Jenis Navigasi yang Digunakan
+
+| Jenis Navigasi | Penerapan dalam Dakwah KPI |
+| :--- | :--- |
+| **Navigasi Utama** | Menu di bagian atas (header): Beranda, Aqidah, Fiqih & Ibadah, Akhlak, Sejarah Islam, Al-Qur'an & Hadis, Dakwah Digital, Tanya Ustaz. |
+| **Navigasi Sekunder** | Sub-menu yang muncul saat kursor berada di atas menu utama. Contoh: hover "Akhlak" memunculkan daftar sub-kategori di bawahnya. |
+| **Breadcrumb** | Jalur navigasi yang selalu tampil di setiap halaman artikel untuk menunjukkan posisi pengguna. |
+| **Search (Pencarian)** | Kolom pencarian di navbar dengan placeholder: *"Cari kajian, artikel, atau ustaz..."* |
+
+### Prinsip Navigasi yang Diterapkan
+
+- **Maksimal 3 Klik:** Pengguna dapat menemukan konten apapun dalam maksimal 3 kali klik dari halaman Beranda.
+- **Konsisten:** Posisi dan tampilan navigasi sama di setiap halaman agar pengguna tidak bingung.
+- **Breadcrumb Selalu Tampil:** Membantu pengguna mengetahui posisi mereka dan memudahkan navigasi mundur.
+- **Search Terintegrasi:** Kotak pencarian selalu tersedia di navbar sebagai jalur alternatif yang cepat.
+- **Mobile-Friendly:** Menu berubah menjadi *hamburger menu* di perangkat mobile agar tetap mudah diakses.
+- **Highlight Aktif:** Menu yang sedang aktif ditandai secara visual sehingga pengguna tahu sedang berada di halaman mana.
+
+---
+
+## Kesimpulan
+
+| Elemen | Peran Utama | Penerapan dalam Dakwah KPI |
+| :--- | :--- | :--- |
+| **Taksonomi** | Struktur (Kerangka) | 6 kategori utama berbasis disiplin keilmuan Islam ditambah layanan Tanya Ustaz. |
+| **Labeling** | Bahasa (Papan Nama) | Label jelas, ringkas, dan berorientasi pengguna; menghindari istilah yang ambigu. |
+| **Navigasi** | Akses (Jalan) | User flow maksimal 3 klik, dilengkapi breadcrumb dan fitur pencarian terintegrasi. |
+
+Ketiga elemen ini bekerja secara terpadu. Taksonomi yang baik tidak akan berdampak apapun jika labelnya membingungkan. Label yang bagus pun tidak berguna jika navigasinya sulit. Website **Dakwah KPI** dirancang agar pesan dakwah tidak hanya benar secara substansi, tetapi juga **mudah ditemukan, dipahami, dan dirasakan** oleh mahasiswa dan masyarakat umum.
+
+---
+
+> **"Pesan yang baik tidak hanya benar secara substansi, tetapi juga mudah ditemukan, dipahami, dan dirasakan oleh audiensnya."**
+
+---
+
+**Referensi:**
+- Morville, P., & Rosenfeld, L. (2006). *Information Architecture for the World Wide Web*. O'Reilly Media.
+- Garrett, J. J. (2010). *The Elements of User Experience: User-Centered Design for the Web and Beyond*. New Riders.
+- Modul Perkuliahan Pertemuan 5 â€“ Arsitektur Informasi: Taksonomi, Labeling, dan Navigasi Pesan. Program Studi KPI.
